@@ -110,4 +110,4 @@ Enter the available resources:
 3 3 2
 The system is in a safe state.
 Safe sequence is: 1 3 4 0 2
-*\
+*/
