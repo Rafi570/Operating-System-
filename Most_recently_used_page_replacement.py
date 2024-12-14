@@ -4,7 +4,7 @@
 using namespace std;
 
 void mruPageReplacement(int frames, vector<int> referenceString) {
-    vector<int> memory;  // Data structure to store the pages in memory
+    vector<int> memory;  
     int pageFaults = 0, hits = 0;
 
     for (int page : referenceString) {
