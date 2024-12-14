@@ -13,8 +13,8 @@ void mruPageReplacement(int frames, vector<int> referenceString) {
         if (it != memory.end()) {
            
             hits++;
-            memory.erase(it);  // Remove the page
-            memory.push_back(page);  // Add it back to the end
+            memory.erase(it);  
+            memory.push_back(page);  
         } else {
            
             pageFaults++;
